@@ -55,17 +55,23 @@ public class GameManager : MonoBehaviour
             Rect boxRect = new Rect(Screen.width / 2 - 50, Screen.height - 100, 100, 50);
             GUI.Box(boxRect, "Time Remaining");
 
-            Rect labelRect = new Rect(Screen.width / 2 - 60, Screen.height / 2 - 100, 120, 50);
-            GUI.Box(boxRect, "Game Over");
+            Rect labelRect = new Rect(Screen.width / 2 - 10, Screen.height - 80, 20, 40);
+            GUI.Label(labelRect, ((int)gameTime).ToString());
         }
 
         else
         {
 
+            Rect boxRect = new Rect(Screen.width / 2 - 60, Screen.height / 2 - 100, 120, 50);
+            GUI.Box(boxRect, "Game Over");
             Rect labelRect = new Rect(Screen.width / 2 - 55, Screen.height / 2 - 80, 90, 40);
-            GUI.Label(labelRect, "Total Time: " + (int)totalTimeElapsed);
 
             Time.timeScale = 0;
         }
     }
-}
+}/* in my first submission, the entire GUI part of the code was messed up. I had nothing to go
+  * off of but I was sure that the GUI boxes overlapping wasn't right, and it kept bothering
+  * me even after I had submitted, so I went and looked at the code again. LOW AND BEHOLD,
+  * I messed up crying emoji crying emoji crying emoji. All good though, I put my glasses on
+  * and fixed it yaaaaay 
+  */

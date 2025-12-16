@@ -20,4 +20,19 @@ strictly just three lanes like most running games do, instead it's a lot more fr
 makes the game harder which... is a good thing, but the fact that you can't get every
 powerup. The only other complaint I would have is that it takes too long to speed up.
 I personally like fast paced games so I'd prefer if it goes faster.
+
+Asset Changes:
+1. Modify the obstacle prefab
+        *Turned the obstacle into spikes
+        *Imported a new texture and applied it to the obstacle
+        *Also I made it glow like a cool red and cyan color because, as mentioned
+        before, I thought it'd be cool to match the sci-fi vibe of the rest
+        of the game! yaaay! The textures are mine btw yaaas
+
+2. Modify the powerup prefab
+        *Turned the model into a battery to fit with the sci-fi vibe
+        *The particle system was making me rip my hair out, I don't know why
+        it's not lining up with the battery correctly but WHATEVER! Also I
+        gave it the same textures as the spikes, not because I was too lazy
+        to give it new textures, but because I thought it looked cool.
 */

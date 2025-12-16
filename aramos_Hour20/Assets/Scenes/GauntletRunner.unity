@@ -360,8 +360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df4b77301eb7efe41bbc9f7272c1ba1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerupPrefab: {fileID: 515023572677270104, guid: eb9c8b0c4d8f4d54d81429242f926066, type: 3}
-  obstaclePrefab: {fileID: 8715112780773187622, guid: a50071ec80797d34f97d616de42c77ca, type: 3}
+  powerupPrefab: {fileID: 3279911473267074793, guid: a2af57f3373d63a46b022310e3a374ad, type: 3}
+  obstaclePrefab: {fileID: 3179190785933589658, guid: 5b9efa372a60f704c8c4d9f093b0a1eb, type: 3}
   spawnCycle: 0.5
 --- !u!114 &895134445
 MonoBehaviour:
